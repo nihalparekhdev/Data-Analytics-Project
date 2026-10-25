@@ -11,8 +11,7 @@ import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
-from sklearn.ensemble import (GradientBoostingRegressor, IsolationForest,
-                              RandomForestRegressor)
+from sklearn.ensemble import (GradientBoostingRegressor, IsolationForest, RandomForestRegressor)
 from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, mean_squared_error, silhouette_score
 from sklearn.pipeline import make_pipeline
